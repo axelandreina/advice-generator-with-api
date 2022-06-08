@@ -1,0 +1,121 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+body {
+  
+  background-color: hsl(218, 23%, 16%);
+  /* margin: 2em; */
+  height:100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 1em;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+  padding: 40px;
+  position: relative;
+}
+
+.advice-number {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+.advice {
+  font-weight: 800;
+  color: hsl(193, 38%, 86%);
+  line-height: 1.5em;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+.line-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.button-circle {
+  background: hsl(150, 100%, 66%);
+  width:70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 200ms ease-out;
+}
+
+.button-circle:hover {
+  box-shadow: 0 0 48px 2px hsl(150, 100%, 66%);
+}
+
+.dice {
+  color: #000;
+  width: 40%;
+}
+
+.advice-button {
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+
+
